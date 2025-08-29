@@ -17,7 +17,7 @@ import {
   Shield, 
   Upload,
   Download,
-  Backup,
+  HardDrive,
   RefreshCw,
   Save,
   AlertTriangle,
@@ -286,7 +286,7 @@ export default function AdminConfig() {
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2">
-                  <Backup className="h-5 w-5" />
+                  <HardDrive className="h-5 w-5" />
                   Backup e Restauração
                 </CardTitle>
               </CardHeader>
